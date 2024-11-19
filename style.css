@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(43, 42, 42);
     color: white;
 }
 
@@ -79,4 +79,56 @@ header nav ul {
 .sobre-loja h2 {
     border-bottom: solid purple;
     padding-bottom: 8px;
+}
+
+.produtos h2 {
+    text-align: center;
+    margin-top: 32px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.produtos .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.produtos .container ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.produtos .container ul li {
+    text-align: center;
+    border: 1px solid purple;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.produtos img {
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.produtos button {
+    margin-top: 8px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    height: 32px;
+    width: 128px;
+    cursor: pointer;
+}
+
+.produtos button:hover {
+    transform: scale(1.1);
 }
