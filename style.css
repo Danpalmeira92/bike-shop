@@ -3,3 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+header {
+    padding: 16 0;
+    background-color: purple;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1 {
+    margin-left: 64px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.container li a {
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+header nav {
+    margin-right: 64px;
+    align-items: center;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header nav li a {
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+header nav li a:hover {
+    transform: scale(1.1);
+    color: rgb(240, 237, 232);
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.sobre img {
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.sobre-loja {
+    margin-left: 24px;
+}
+
+.sobre-loja p {
+    text-align: justify;
+}
+
+.sobre-loja h2 {
+    border-bottom: solid purple;
+    padding-bottom: 8px;
+}
